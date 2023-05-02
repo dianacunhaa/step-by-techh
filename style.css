@@ -14,20 +14,36 @@ body {
     
 } 
 
-#p1 {
+/*#p1 {
     
     background: url(imagens/sea-2361247.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 700px;
-    width: auto; /* acrescentei esse*/
-    font-family: 'Roboto Mono', monospace, bold;
+    width: auto;*/ /* acrescentei esse*/
+   /* font-family: 'Roboto Mono', monospace, bold;
     color: aliceblue;
     object-fit: cover;
     object-position: bottom;
    
  
+}*/
+
+#p1 {
+  background: url(imagens/sea-2361247.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  font-family: 'Roboto Mono', monospace, bold;
+  color: aliceblue;
+}
+
+@media only screen and (max-width: 600px) {
+  #p1 {
+      background-size: 100vw;
+  }
 }
 
 img {
